@@ -50,12 +50,26 @@ li {
     height: 500px;
 }
 .buton {
-    background-color: rgb(147, 147, 253);
+    background-color: #4285F4;
     border-radius: 6px;
-    padding: 8px 12px;
+    padding: 6px 12px;
+    font: 13px arial, sans-serif;
     color: white;
+    border: transparent;
 }
-
+#hov:hover
+{
+    border-color: white;
+}
+#buto1 {
+    padding-left: 400px;
+}
+#buto2 {
+    padding-left: 500px;
+}
+.app {
+    width: 4%;
+}
 </style>
 </head>
 <body>
@@ -63,14 +77,21 @@ li {
         <ul>
             <li><a href="https://google.com">Gmail</a></li>
             <li><a href="https://google.com">Images</a></li>
-            <li><button></button></li>
+            <li><button style="width: 14px;"><img class="app" src="https://image.flaticon.com/icons/png/512/60/60991.png" alt="google apps logo"></button></li>
             <li><button class="buton">Sign in</button></li>
         </ul>
         <div id=horz>
 <img id="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="googlelogo">
 <br/>
-<input>
+        </div>
+        <div id="buto1">
+            <br/>
+<input id="hov" style="width: 480px; height: 34px; border-radius: 16px; border-color: rgba(243, 241, 241, 0.753);">
 </div>
+<div id="buto2">
+<button style="width: 130px; background-color:rgba(243, 241, 241, 0.863); color: #5F6368; font: 14px arial, sans-serif; display: inline; border-radius: 4px; height: 40px; margin: 11px 4px; border:transparent">
+Google Search</button>  <button style="width: 130px; background-color:rgba(243, 241, 241, 0.863); color: #5F6368; font: 14px arial, sans-serif; display: inline; border-radius: 4px; height: 40px; margin: 11px 4px; border:transparent">
+    I'm feeling lucky</button></div>
 </form>
 
 <footer id="site-footer">
